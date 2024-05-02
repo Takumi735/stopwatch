@@ -1,0 +1,22 @@
+h3 {
+    margin-left: 10px;
+}
+
+.timer {
+    font-weight: bold;
+    margin-bottom: 18px;
+    margin-left: 50px;
+
+}
+
+.start {
+    height: 40px;
+}
+
+.stop {
+    height: 40px;
+}
+
+.reset {
+    height: 40px;
+}
