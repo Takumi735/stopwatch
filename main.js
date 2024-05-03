@@ -16,7 +16,8 @@ start.addEventListener("click", function() {
 
     intervalId = setInterval(function () {
         let now = new Date();
-        elapsedTime = now - startTime;
+        elapsedTime += now - startTime;
+        startTime = now
         updateTimer();
     }, 10);
 
